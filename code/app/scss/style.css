@@ -631,7 +631,7 @@ footer {
     display: grid;
     -ms-grid-columns: (1fr)[3] 2fr;
         grid-template-columns: repeat(3, 1fr) 2fr;
-    gap: 6rem;
+    gap: 4rem;
     font-size: 0.875rem;
   }
 }
@@ -659,7 +659,7 @@ footer {
 }
 
 .footer__socials a:not(:last-child) {
-  margin-right: 12px;
+  margin-right: 10px;
 }
 
 @media (min-width: 64em) {
